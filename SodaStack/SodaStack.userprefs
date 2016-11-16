@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Bottles.cs">
+    <Files>
+      <File FileName="Assets\Bottles.cs" Line="73" Column="60" />
+      <File FileName="Assets\MenuHandling.cs" Line="3" Column="35" />
+      <File FileName="Assets\TimeHandler.cs" Line="17" Column="14" />
+      <File FileName="Assets\StatsButton.cs" Line="22" Column="29" />
+      <File FileName="Assets\SettingButton.cs" Line="20" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
