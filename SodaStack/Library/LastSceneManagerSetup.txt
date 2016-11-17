@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Question.unity
+- path: Assets/Can_Pyramid.unity
   isLoaded: 1
   isActive: 1

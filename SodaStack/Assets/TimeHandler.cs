@@ -12,9 +12,10 @@ public class TimeHandler : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		hours = 0;
-		minutes = 0;
-		seconds = 20;
+		hours = 24-System.DateTime.Now.Hour;
+		minutes = 60-System.DateTime.Now.Minute;
+		seconds = 60-System.DateTime.Now.Second;
+
 		InvokeRepeating("decr", 0.0f, 1.0f);
 	
 	}

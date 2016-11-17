@@ -54,7 +54,7 @@ public class Bottles : MonoBehaviour {
 		money.text = "$"+(Mathf.Round((float)numBottles * 0.50f)).ToString ();
 
 		xwidth = 0.52f;
-		Debug.Log(Screen.width);
+		//Debug.Log(Screen.width);
 		int rows = 0;
 		int rowBottles = 1;
 
@@ -74,7 +74,7 @@ public class Bottles : MonoBehaviour {
 		UI.transform.localScale = new Vector3 (Camera.main.orthographicSize / 5, Camera.main.orthographicSize / 5, 1);
 
 
-		Debug.Log (yshift);
+		//Debug.Log (yshift);
 		float xoffset = 0f;
 	
 
@@ -89,7 +89,7 @@ public class Bottles : MonoBehaviour {
 				bonus = 1;
 				if(!nextBottle && numBottles > 0)
 				{
-					Debug.Log (i);
+					//Debug.Log (i);
 					nextBottle = true;
 					float xpos = -xshift + (xwidth) * (i-numBottles) + (rows - i + numBottles) * (xwidth/2);
 					float ypos = -yshift +  (rows - i + numBottles);
